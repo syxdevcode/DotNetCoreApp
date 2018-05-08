@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dotnetcoreapp:
+    image: dotnetcoreapp
+    build:
+      context: ./DotNetCoreApp
+      dockerfile: Dockerfile
